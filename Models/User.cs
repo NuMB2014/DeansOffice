@@ -11,10 +11,12 @@ namespace deans_office.Models
     {
         private string Login;
         private static string token;
+        public static int role { get; set; }//0 - adm // 1 - operator // 2 - student
         public User()
         {
             Login = "";
             token = "";
+            role = 2;
         }
         public void SetLogin(string login) { Login = login; }
         public void CheckData(string login, string password)
@@ -36,5 +38,7 @@ namespace deans_office.Models
 
         private void SetToken(string Token) { token = Token; }
         public static string GetToken() { return token; }
+        private void SetRole(int idrole) { role = idrole; }
+        public static int GetRole() { return role; }
     }
 }

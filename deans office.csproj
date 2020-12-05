@@ -10,8 +10,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Remove="**\*.xaml" />
+    <None Remove="Views\logo.png" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="ReactiveUI" Version="12.1.5" />
+    <Resource Include="Views\logo.png" />
     <Compile Update="**\*.xaml.cs" DependentUpon="%(Filename)" />
   </ItemGroup>
 </Project>

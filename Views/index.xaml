@@ -9,14 +9,21 @@
         Title='Информационная система "Деканат"' Height="450" Width="800">
 
     <Grid Background="White">
-        <Border BorderThickness="1" BorderBrush="Black" Height="28" VerticalAlignment="Top">
+        <Border BorderThickness="1" BorderBrush="Black" Height="52" VerticalAlignment="Top">
             <Border.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="Black" Offset="1"/>
-                    <GradientStop Color="#FF2292F0" Offset="0.917"/>
+                    <GradientStop Color="#FF2292F0" Offset="0.97"/>
                 </LinearGradientBrush>
             </Border.Background>
+            <StackPanel>
+                <Button Content="Главная" Height="23" HorizontalAlignment="Left"  x:Name="index_b" VerticalAlignment="Top" Width="104" Click="index_Click" Margin="9,9,0,0" BorderBrush="White" Background="White" />
+                <Button Content="Профиль" Height="23"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="104" x:Name="profile" Click="profile_Click" Margin="150,-23,0,0" BorderBrush="White" Background="White" BorderThickness="1,1,1,1"/>
+                <Button Content="Учебный процесс" Height="23"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="104" x:Name="disciplines" Click="disciplines_Click" Margin="291,-23,0,0" Visibility="Visible" Background="White" BorderBrush="White"/>
+                <Button Content="Admin Panel" Height="23"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="104" x:Name="admin" Click="admin_Click" Margin="291,-23,0,0" Visibility="Hidden" Background="White" BorderBrush="White"/>
+            </StackPanel>
         </Border>
+
     </Grid>
 
 </Window>

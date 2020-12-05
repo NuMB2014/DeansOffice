@@ -25,5 +25,25 @@ namespace deans_office
         {
             InitializeComponent();
         }
+
+        private void disciplines_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void admin_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void index_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void profile_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

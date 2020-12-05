@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "deans office", "deans office.csproj", "{0212639D-7628-4E54-80B7-40053FE7B9C9}"
 EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "deans office SERVER", "..\DecanatServer\deans office SERVER.njsproj", "{F511AF53-CE81-46E1-9F20-4AC18DE8D1E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0212639D-7628-4E54-80B7-40053FE7B9C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0212639D-7628-4E54-80B7-40053FE7B9C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0212639D-7628-4E54-80B7-40053FE7B9C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F511AF53-CE81-46E1-9F20-4AC18DE8D1E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F511AF53-CE81-46E1-9F20-4AC18DE8D1E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F511AF53-CE81-46E1-9F20-4AC18DE8D1E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F511AF53-CE81-46E1-9F20-4AC18DE8D1E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

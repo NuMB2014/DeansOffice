@@ -1,4 +1,4 @@
-﻿<Window x:Class="deans_office.index"
+﻿<Window x:Class="deans_office.disciplines"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -9,7 +9,7 @@
         Title='Информационная система "Деканат"' Height="450" Width="800">
 
     <Grid Background="White">
-        <Border BorderThickness="1" BorderBrush="Black" Height="28" VerticalAlignment="Top">
+        <Border BorderThickness="1" BorderBrush="Black" Height="52" VerticalAlignment="Top">
             <Border.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="Black" Offset="1"/>

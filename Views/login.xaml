@@ -10,12 +10,13 @@
         <Border Margin="15" Width="400" Background="#FF2292F0" VerticalAlignment="Center" Padding="30" CornerRadius="10">
             <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Width="350" Height="341">
 
-                <Image Height="200" Width="200" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,0,0,15" Source="/assets/logo.png" StretchDirection="Both" Stretch="Uniform"/>
+                <Image Height="200" Width="200" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,0,0,15" Source="/Views/logo.png" StretchDirection="Both" Stretch="Uniform"/>
 
                 <TextBox Height="23" HorizontalAlignment="Center"  x:Name="textBoxLogin" VerticalAlignment="Top" Width="247" Margin="0,0,0,5" />
                 <PasswordBox Height="23" HorizontalAlignment="Center"  x:Name="passwordBox1" VerticalAlignment="Top" Width="247" Margin="0,0,0,5" />
                 <Button Content="Login" Height="23" HorizontalAlignment="Center"  x:Name="button1" VerticalAlignment="Top" Width="104" Click="button1_Click" Margin="0,0,0,5" />
                 <TextBlock Height="23" HorizontalAlignment="Center" x:Name ="errormessage" VerticalAlignment="Top" Width="247"  OpacityMask="Crimson" Foreground="#FFE5572C"  />
+                <Image Height="100" Width="160"/>
             </StackPanel>
         </Border>
     </Grid>

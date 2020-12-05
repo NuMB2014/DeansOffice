@@ -19,9 +19,9 @@ namespace deans_office
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class index : Window
+    public partial class remand : Window
     {
-        public index()
+        public remand()
         {
             InitializeComponent();
         }

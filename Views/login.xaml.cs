@@ -22,6 +22,7 @@ namespace deans_office
     {       
         public login()
         {
+            
             InitializeComponent();
         }
         private void button1_Click(object sender, RoutedEventArgs e)
@@ -43,7 +44,7 @@ namespace deans_office
                 ModelView.Login.TryAuthorize(login, password);
                 if (String.IsNullOrEmpty(Models.User.GetToken()))
                 {
-                    MessageBox.Show("Ошибка авторизации.", "Неверный логин или пароль!",
+                    MessageBox.Show("Неверный логин или пароль!", "Ошибка авторизации",
                     MessageBoxButton.OK, MessageBoxImage.Error);
                 }
                 else
